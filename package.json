@@ -1,0 +1,27 @@
+{
+  "name": "@brthlmy/serverless-telegram-notifier",
+  "version": "1.0.0",
+  "description": "Serverless netlify plugin to send notifications via telegram",
+  "type": "module",
+  "homepage": "https://brthlmy.com?utm_source=package-json",
+  "main": ".eleventy.js",
+  "scripts": {
+    "bump": "npm --no-git-tag-version version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brthlmy-com/eleventy-plugin-doorbell"
+  },
+  "keywords": ["serverless", "notifier", "telegram"],
+  "author": {
+    "name": "Eric Bartholemy",
+    "url": "https://brthlmy.com"
+  },
+  "bugs": {
+    "url": "https://github.com/brthlmy-com/serverless-telegram-notifier"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
